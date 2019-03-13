@@ -10,7 +10,7 @@ namespace FizzBuzz
     {
         static void Main(string[] args)
         {
-            for (int num = 0; num < 100; num++)
+            for (int num = 1; num < 100; num++)
             {
                 if ((num % 3 == 0) && (num % 5 == 0))
                 {
